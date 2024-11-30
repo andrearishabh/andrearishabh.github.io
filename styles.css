@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.background-image {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+}
+
+.banner {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  transition: transform 0.3s ease, width 0.3s ease;
+  z-index: 10;
+}
+
+.banner:hover {
+  transform: translateX(-50%) scale(1.3);
+}
