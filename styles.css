@@ -18,6 +18,14 @@ body {
   max-width: 960px;
 }
 
+.iframe-form {
+  display: block;
+  width: 100%;
+/*  max-width: 640px;*/
+  min-width: 640px;
+  min-height: 1100px;
+}
+
 .banner {
   position: absolute;
   bottom: 3%;
